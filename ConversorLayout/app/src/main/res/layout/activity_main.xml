@@ -6,12 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        />
+    
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,5 +34,16 @@
         android:id="@+id/textResultado"
         android:gravity="center"
         android:text="R$"/>
+       <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Juliana" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1204" />
 
 </LinearLayout>
